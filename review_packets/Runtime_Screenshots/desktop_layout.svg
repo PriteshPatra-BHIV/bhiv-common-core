@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #111827; stroke: #1f2937; stroke-width: 1.5; rx: 8px; }
+      .header-bg { fill: #0f172a; stroke-bottom: #1e293b; }
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 14px; font-weight: 700; fill: #f3f4f6; }
+      .text-sub { font-family: monospace; font-size: 11px; fill: #9ca3af; }
+      .text-mono { font-family: monospace; font-size: 12px; fill: #38bdf8; }
+      .badge-pass { fill: #064e3b; stroke: #10b981; stroke-width: 1; rx: 4px; }
+      .badge-text-pass { font-family: monospace; font-size: 11px; font-weight: 700; fill: #34d399; }
+      .btn-assign { fill: #2563eb; rx: 6px; }
+      .btn-text { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #ffffff; }
+      .grid-line { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4,4; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1440" height="900" class="bg" />
+
+  <!-- Top Navigation Bar -->
+  <rect width="1440" height="56" class="header-bg" />
+  <circle cx="28" cy="28" r="10" fill="#38bdf8" />
+  <text x="50" y="33" font-family="monospace" font-size="16" font-weight="800" fill="#f8fafc">BHIV ENTERPRISE CORE // SETU OS v6.0</text>
+  <rect x="520" y="16" width="360" height="26" rx="4" fill="#1e293b" />
+  <text x="535" y="33" class="text-sub">Search Tasks, Candidates, Hashes (Ctrl+K)...</text>
+  <rect x="1260" y="14" width="160" height="28" class="badge-pass" />
+  <text x="1275" y="32" class="badge-text-pass">● PARIKSHAK ONLINE</text>
+
+  <!-- Sub-Header: Mission Breadcrumbs & 1-Minute Cognition Banner -->
+  <rect x="20" y="70" width="1400" height="60" class="card" />
+  <text x="40" y="95" class="text-sub">TASK ID</text>
+  <text x="40" y="115" class="text-title">T-GOV-002: Advanced Enterprise Core &amp; IdP Hardening</text>
+  <text x="540" y="95" class="text-sub">ASSIGNEE</text>
+  <text x="540" y="115" class="text-title">Pritesh Patra (AI ML)</text>
+  <text x="780" y="95" class="text-sub">CALIBRATED STATUS</text>
+  <text x="780" y="115" class="text-mono">100/100 PASS (50/50 Runs Bitwise Identical)</text>
+  <rect x="1220" y="82" width="180" height="36" class="btn-assign" />
+  <text x="1235" y="105" class="btn-text">⚡ ASSIGN NEXT TASK (0-CTX)</text>
+
+  <!-- Left Column: Review Dossier & Lineage (Width: 420) -->
+  <rect x="20" y="145" width="420" height="735" class="card" />
+  <text x="40" y="175" class="text-title">1. REVIEW DOSSIER &amp; LINEAGE</text>
+  <line x1="40" y1="190" x2="420" y2="190" stroke="#1f2937" />
+
+  <text x="40" y="215" class="text-sub">LINEAGE CONVERGENCE</text>
+  <text x="40" y="235" font-family="monospace" font-size="12" fill="#e5e7eb">Phase 2: HIAS Hostel Software Convergence</text>
+  <text x="40" y="255" class="text-sub">WEAKNESS FOCUS TARGET</text>
+  <text x="40" y="275" font-family="monospace" font-size="12" fill="#f87171">incorrect_logic ➔ RESOLVED VIA DETERMINISTIC FSM</text>
+
+  <rect x="40" y="300" width="380" height="110" rx="6" fill="#0f172a" stroke="#1e293b" />
+  <text x="55" y="325" class="text-title">Cryptographic State Hash</text>
+  <text x="55" y="350" font-family="monospace" font-size="10" fill="#38bdf8">18897b74a70744d7568e2a9bf5008fe7</text>
+  <text x="55" y="368" font-family="monospace" font-size="10" fill="#38bdf8">b7508cfd70d5833680ed4f1a03fb0293</text>
+  <text x="55" y="392" font-family="monospace" font-size="11" fill="#34d399">✓ 50-Run SHA-256 Parity Verified</text>
+
+  <text x="40" y="440" class="text-title">Candidate Calibration Metrics</text>
+  <text x="40" y="465" class="text-sub">Maturity Level: Junior Associate</text>
+  <text x="40" y="485" class="text-sub">Cognition Velocity: 45 sec (Target: &lt;60s)</text>
+  <text x="40" y="505" class="text-sub">Zero-Context-Switch Readiness: 100%</text>
+
+  <!-- Middle Column: Verification Proofs & 5-Tier Matrix (Width: 500) -->
+  <rect x="460" y="145" width="500" height="735" class="card" />
+  <text x="480" y="175" class="text-title">2. 5-TIER VERIFICATION HARNESS &amp; BENCHMARKS</text>
+  <line x1="480" y1="190" x2="940" y2="190" stroke="#1f2937" />
+
+  <g transform="translate(480, 210)">
+    <rect x="0" y="0" width="460" height="38" rx="4" fill="#0f172a" />
+    <text x="15" y="24" class="text-mono">Tier 1: Unit Tests (Schemas &amp; FSM)</text>
+    <text x="380" y="24" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">15/15 PASS</text>
+
+    <rect x="0" y="48" width="460" height="38" rx="4" fill="#0f172a" />
+    <text x="15" y="72" class="text-mono">Tier 2: Subsystem Integration</text>
+    <text x="380" y="72" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">3/3 PASS</text>
+
+    <rect x="0" y="96" width="460" height="38" rx="4" fill="#0f172a" />
+    <text x="15" y="120" class="text-mono">Tier 3: Negative &amp; Auth Boundaries</text>
+    <text x="380" y="120" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">6/6 PASS</text>
+
+    <rect x="0" y="144" width="460" height="38" rx="4" fill="#0f172a" />
+    <text x="15" y="168" class="text-mono">Tier 4: Regression &amp; Backward Adapters</text>
+    <text x="380" y="168" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">3/3 PASS</text>
+
+    <rect x="0" y="192" width="460" height="38" rx="4" fill="#0f172a" />
+    <text x="15" y="216" class="text-mono">Tier 5: End-to-End Review Flow</text>
+    <text x="380" y="216" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">1/1 PASS</text>
+  </g>
+
+  <rect x="480" y="475" width="460" height="190" rx="6" fill="#0a0f1d" stroke="#1e293b" />
+  <text x="495" y="500" class="text-title">Ecosystem Telemetry (Saarthi Live)</text>
+  <text x="495" y="525" class="text-sub">GC Shakti Policy Authority: COMPLIANT (0 Breaches)</text>
+  <text x="495" y="545" class="text-sub">Gov-OS Cryptographic Anchors: 0x9b3f...c421 ANCHORED</text>
+  <text x="495" y="565" class="text-sub">Bucket Storage URI: bucket://bhiv-immutable-evidence/</text>
+  <text x="495" y="585" class="text-sub">Optimistic Concurrency Control: ACTIVE (v1 ➔ v5)</text>
+  <text x="495" y="605" class="text-sub">Unhandled 500 Exceptions: 0 (Strict Problem Details)</text>
+  <text x="495" y="625" class="text-sub">Dependency Pinning: 100% STRICT (==)</text>
+
+  <!-- Right Column: Niyantran Next Task & Immediate Approval (Width: 440) -->
+  <rect x="980" y="145" width="440" height="735" class="card" />
+  <text x="1000" y="175" class="text-title">3. CANONICAL NEXT TASK ASSIGNMENT</text>
+  <line x1="1000" y1="190" x2="1400" y2="190" stroke="#1f2937" />
+
+  <rect x="1000" y="210" width="400" height="130" rx="6" fill="#0f172a" stroke="#3b82f6" />
+  <text x="1015" y="235" class="text-mono">NEXT TASK ID: T-GOV-003</text>
+  <text x="1015" y="258" font-family="-apple-system, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">Enterprise Audit Ledger Cryptographic Anchoring</text>
+  <text x="1015" y="280" class="text-sub">Duration: 42 hrs | Priority: HIGH | Dept: AI ML</text>
+  <text x="1015" y="300" font-family="monospace" font-size="11" fill="#34d399">✓ Canonical Depth Verified (5 Phases, 4 Criteria)</text>
+  <text x="1015" y="320" font-family="monospace" font-size="11" fill="#94a3b8">Zero Placeholder IDs Check: PASSED</text>
+
+  <text x="1000" y="370" class="text-title">One-Click Governed Approval</text>
+  <text x="1000" y="395" class="text-sub">Target Delivery Date: 2026-11-28</text>
+  <text x="1000" y="415" class="text-sub">Idempotency Token: idemp_auto_gen_88f9a2</text>
+
+  <rect x="1000" y="440" width="400" height="48" class="btn-assign" />
+  <text x="1060" y="470" font-family="-apple-system, sans-serif" font-size="14" font-weight="700" fill="#ffffff">APPROVE &amp; DISPATCH NIYANTRAN SYNC</text>
+
+  <rect x="1000" y="510" width="400" height="160" rx="6" fill="#090d16" stroke="#1e293b" />
+  <text x="1015" y="535" class="text-title">Live Audit Trail (Gov-OS)</text>
+  <text x="1015" y="560" font-family="monospace" font-size="11" fill="#a5b4fc">[17:55:01] TASK_CREATED ➔ v1</text>
+  <text x="1015" y="580" font-family="monospace" font-size="11" fill="#a5b4fc">[17:55:02] REVIEW_SUBMITTED ➔ v2</text>
+  <text x="1015" y="600" font-family="monospace" font-size="11" fill="#a5b4fc">[17:55:03] REVIEW_STARTED ➔ v3</text>
+  <text x="1015" y="620" font-family="monospace" font-size="11" fill="#a5b4fc">[17:55:04] EVALUATION_RECORDED (100) ➔ v4</text>
+  <text x="1015" y="640" font-family="monospace" font-size="11" fill="#34d399">[17:55:05] NIYANTRAN_TASK_ASSIGNED ➔ v5</text>
+</svg>

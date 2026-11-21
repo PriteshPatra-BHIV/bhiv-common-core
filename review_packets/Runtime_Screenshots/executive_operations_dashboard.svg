@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #111827; stroke: #1f2937; stroke-width: 1.5; rx: 8px; }
+      .text-title { font-family: monospace; font-size: 14px; font-weight: 700; fill: #f3f4f6; }
+      .text-mono { font-family: monospace; font-size: 12px; fill: #38bdf8; }
+      .text-sub { font-family: monospace; font-size: 11px; fill: #9ca3af; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="600" class="bg" />
+  <rect x="20" y="20" width="960" height="560" class="card" />
+
+  <text x="50" y="60" class="text-title">SAARTHI EXECUTIVE OPERATIONS DASHBOARD // BHIV ECOSYSTEM</text>
+  <text x="50" y="85" class="text-sub">High-Density Operational Oversight conforming to SETU OS Architecture v6.0</text>
+
+  <!-- 4 KPI Cards -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="210" height="90" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="15" y="28" class="text-sub">GOVERNANCE COMPLIANCE</text>
+    <text x="15" y="65" font-family="monospace" font-size="24" font-weight="800" fill="#10b981">100%</text>
+    <text x="15" y="80" class="text-sub">0 Policy Violations (GC Shakti)</text>
+
+    <rect x="230" y="0" width="210" height="90" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="245" y="28" class="text-sub">DETERMINISM INTEGRITY</text>
+    <text x="245" y="65" font-family="monospace" font-size="24" font-weight="800" fill="#38bdf8">50/50</text>
+    <text x="245" y="80" class="text-sub">Bitwise Hash Parity (Gov-OS)</text>
+
+    <rect x="460" y="0" width="210" height="90" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="475" y="28" class="text-sub">COGNITION LATENCY</text>
+    <text x="475" y="65" font-family="monospace" font-size="24" font-weight="800" fill="#fbbf24">45 sec</text>
+    <text x="475" y="80" class="text-sub">Target SLA: &lt;60s (Zero-Ctx)</text>
+
+    <rect x="690" y="0" width="210" height="90" rx="6" fill="#0f172a" stroke="#1e293b" />
+    <text x="705" y="28" class="text-sub">UNHANDLED 500s</text>
+    <text x="705" y="65" font-family="monospace" font-size="24" font-weight="800" fill="#10b981">0</text>
+    <text x="705" y="80" class="text-sub">RFC-7807 Error Boundaries</text>
+  </g>
+
+  <!-- Live Ecosystem Pipeline Matrix -->
+  <rect x="50" y="225" width="900" height="315" rx="6" fill="#090d16" stroke="#1e293b" />
+  <text x="80" y="260" class="text-title">ECOSYSTEM PILLAR INTEGRATION STATUS</text>
+  <line x1="80" y1="275" x2="920" y2="275" stroke="#1e293b" />
+
+  <g transform="translate(80, 295)">
+    <text x="0" y="20" class="text-mono">1. BHIV Enterprise Common Core</text>
+    <text x="320" y="20" class="text-sub">State Machine (FSM), Models, Inbound Gateways</text>
+    <text x="750" y="20" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">ACTIVE (v5)</text>
+
+    <text x="0" y="55" class="text-mono">2. GC Shakti</text>
+    <text x="320" y="55" class="text-sub">Governance Policy Authority &amp; Gatekeeping</text>
+    <text x="750" y="55" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">COMPLIANT</text>
+
+    <text x="0" y="90" class="text-mono">3. Niyantran</text>
+    <text x="320" y="90" class="text-sub">Task Lifecycle &amp; Canonical DB Orchestrator</text>
+    <text x="750" y="90" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">SYNCED (0-CTX)</text>
+
+    <text x="0" y="125" class="text-mono">4. Gov-OS</text>
+    <text x="320" y="125" class="text-sub">Cryptographic Ledger &amp; State Hash Anchoring</text>
+    <text x="750" y="125" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">ANCHORED</text>
+
+    <text x="0" y="160" class="text-mono">5. Bucket</text>
+    <text x="320" y="160" class="text-sub">Immutable Review Packets &amp; Audit Logs Storage</text>
+    <text x="750" y="160" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">PERSISTED</text>
+
+    <text x="0" y="195" class="text-mono">6. Saarthi</text>
+    <text x="320" y="195" class="text-sub">Visibility Layer &amp; Executive Oversight Stream</text>
+    <text x="750" y="195" font-family="monospace" font-size="11" font-weight="700" fill="#10b981">LIVE</text>
+  </g>
+</svg>

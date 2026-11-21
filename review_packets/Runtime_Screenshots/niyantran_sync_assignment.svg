@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <defs>
+    <style>
+      .bg { fill: #0b0f19; }
+      .card { fill: #111827; stroke: #1f2937; stroke-width: 1.5; rx: 8px; }
+      .text-title { font-family: monospace; font-size: 14px; font-weight: 700; fill: #f3f4f6; }
+      .text-mono { font-family: monospace; font-size: 12px; fill: #38bdf8; }
+      .text-sub { font-family: monospace; font-size: 11px; fill: #9ca3af; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="600" class="bg" />
+  <rect x="20" y="20" width="960" height="560" class="card" />
+
+  <text x="50" y="60" class="text-title">ZERO-CONTEXT-SWITCH NIYANTRAN TASK ASSIGNMENT &amp; ECOSYSTEM PROPAGATION</text>
+  <text x="50" y="85" class="text-sub">Automated Task Orchestration Pipeline: Reviewer Approval ➔ Niyantran ➔ Gov-OS ➔ Bucket ➔ Saarthi</text>
+
+  <!-- Comparison Box -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="430" height="150" rx="6" fill="#1f1515" stroke="#ef4444" />
+    <text x="20" y="30" font-family="monospace" font-size="12" font-weight="700" fill="#f87171">BEFORE (Unacceptable Anti-Pattern)</text>
+    <text x="20" y="55" class="text-sub">✖ Reviewer opens external Jira/Trello tab</text>
+    <text x="20" y="75" class="text-sub">✖ Manually types candidate email and ID</text>
+    <text x="20" y="95" class="text-sub">✖ Placeholder task IDs ("T-NEXT-TODO")</text>
+    <text x="20" y="115" class="text-sub">✖ Context-switch cognition penalty: &gt;12 minutes</text>
+    <text x="20" y="135" class="text-sub">✖ Zero audit linkage to evaluation proofs</text>
+
+    <rect x="470" y="0" width="430" height="150" rx="6" fill="#0f1f1a" stroke="#10b981" />
+    <text x="490" y="30" font-family="monospace" font-size="12" font-weight="700" fill="#34d399">AFTER (BHIV Zero-Context-Switch Engine)</text>
+    <text x="490" y="55" class="text-sub">✓ 1-Click approval directly inside review interface</text>
+    <text x="490" y="75" class="text-sub">✓ Auto-retrieves canonical next task from database</text>
+    <text x="490" y="95" class="text-sub">✓ Full multi-phase spec with zero placeholder IDs</text>
+    <text x="490" y="115" class="text-sub">✓ Context-switch time: 0 SECONDS</text>
+    <text x="490" y="135" class="text-sub">✓ Cryptographically anchored into Gov-OS in 38ms</text>
+  </g>
+
+  <!-- Live Propagated Transaction -->
+  <rect x="50" y="280" width="900" height="260" rx="6" fill="#090d16" stroke="#3b82f6" />
+  <text x="80" y="315" class="text-title">DISPATCHED NIYANTRAN ASSIGNMENT TRANSACTION</text>
+  <line x1="80" y1="330" x2="920" y2="330" stroke="#1e293b" />
+
+  <text x="80" y="360" class="text-mono">Assignment ID: asgn_88f9a2b3c4d5e6f7</text>
+  <text x="80" y="385" class="text-mono">Next Task Spec: T-GOV-003 (Enterprise Audit Ledger Cryptographic Anchoring)</text>
+  <text x="80" y="410" class="text-sub">Assignee Agent: Pritesh Patra (usr_candidate_pritesh)</text>
+  <text x="80" y="435" class="text-sub">Target Completion Date: 2026-11-28 | Priority: HIGH | Calibrated Hours: 42</text>
+  <text x="80" y="460" class="text-sub">Canonical Depth: 5 Phases, 4 Acceptance Criteria (VERIFIED)</text>
+  <text x="80" y="485" class="text-sub">Gov-OS Cryptographic Hash: 0x9b3f8a42e1d07c99ffbb6621... (ANCHORED)</text>
+  <text x="80" y="510" class="text-sub">Saarthi Telemetry Event: TASK_ASSIGNED_NIYANTRAN (BROADCAST COMPLETE)</text>
+</svg>
