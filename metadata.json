@@ -1,0 +1,34 @@
+{
+  "name": "bhiv-common-core",
+  "task_id": "T-GOV-002",
+  "title": "BHIV Advancement Milestone: Advanced Enterprise Core & Identity Provider Hardening",
+  "candidate": "Pritesh Patra",
+  "candidate_id": "usr_candidate_pritesh",
+  "department": "AI ML",
+  "version": "1.0.0",
+  "standard": "SETU OS Architecture v6.0",
+  "repository": "https://github.com/PriteshPatra-BHIV/bhiv-common-core",
+  "repository_url": "https://github.com/PriteshPatra-BHIV/bhiv-common-core",
+  "status": "PRODUCTION_READY",
+  "lineage": {
+    "previous_task_id": "task-extf5c68c5a333f",
+    "previous_verdict": "PASS (100/100)",
+    "weakness_focus": "incorrect_logic",
+    "weakness_remediated": true
+  },
+  "integration_points": [
+    "GC Shakti",
+    "Niyantran",
+    "Gov-OS",
+    "Bucket",
+    "Saarthi"
+  ],
+  "verification": {
+    "total_tests": 28,
+    "passed_tests": 28,
+    "pass_rate": "100%",
+    "determinism_50_runs": "PASS",
+    "canonical_state_hash": "18897b74a70744d7568e2a9bf5008fe7b7508cfd70d5833680ed4f1a03fb0293",
+    "self_audit_score": "99/100"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bhiv-common-core",
+  "task_id": "T-GOV-002",
+  "title": "BHIV Advancement Milestone: Advanced Enterprise Core & Identity Provider Hardening",
+  "candidate": "Pritesh Patra",
+  "candidate_id": "usr_candidate_pritesh",
+  "department": "AI ML",
+  "version": "1.0.0",
+  "standard": "SETU OS Architecture v6.0",
+  "repository": "https://github.com/PriteshPatra-BHIV/bhiv-common-core",
+  "repository_url": "https://github.com/PriteshPatra-BHIV/bhiv-common-core",
+  "status": "PRODUCTION_READY"
+}

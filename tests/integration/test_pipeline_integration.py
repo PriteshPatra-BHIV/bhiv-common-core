@@ -121,3 +121,8 @@ def test_full_service_pipeline_integration(
     )
     assert metrics_resp.status_code == 200
     assert "governance_compliance_rate" in metrics_resp.json()["data"]
+
+    # 8. Verify pre-flight health endpoints
+    health_resp = client.get("/api/v1/health")
+    assert health_resp.status_code == 200
+    assert health_resp.json()["status"] == "UP"

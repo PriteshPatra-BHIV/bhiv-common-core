@@ -2,7 +2,7 @@
   "metadata": {
     "task_id": "T-GOV-002",
     "candidate": "Pritesh Patra",
-    "timestamp": "2026-11-21T12:25:53.878973+00:00",
+    "timestamp": "2026-11-21T12:50:23.851504+00:00",
     "runs_executed": 50,
     "deterministic_verdict": "PASS",
     "canonical_state_hash": "18897b74a70744d7568e2a9bf5008fe7b7508cfd70d5833680ed4f1a03fb0293",
@@ -15,7 +15,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.384
+      "elapsed_ms": 0.402
     },
     {
       "cycle_index": 2,
@@ -23,7 +23,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.125
+      "elapsed_ms": 0.114
     },
     {
       "cycle_index": 3,
@@ -31,7 +31,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.099
+      "elapsed_ms": 0.098
     },
     {
       "cycle_index": 4,
@@ -39,7 +39,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.161
+      "elapsed_ms": 0.088
     },
     {
       "cycle_index": 5,
@@ -47,7 +47,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.185
+      "elapsed_ms": 0.082
     },
     {
       "cycle_index": 6,
@@ -55,7 +55,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.195
+      "elapsed_ms": 0.081
     },
     {
       "cycle_index": 7,
@@ -63,7 +63,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.218
+      "elapsed_ms": 0.079
     },
     {
       "cycle_index": 8,
@@ -71,7 +71,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.115
+      "elapsed_ms": 0.09
     },
     {
       "cycle_index": 9,
@@ -79,7 +79,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.121
+      "elapsed_ms": 0.281
     },
     {
       "cycle_index": 10,
@@ -87,7 +87,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.139
+      "elapsed_ms": 0.114
     },
     {
       "cycle_index": 11,
@@ -95,7 +95,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.168
+      "elapsed_ms": 0.095
     },
     {
       "cycle_index": 12,
@@ -103,7 +103,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.162
+      "elapsed_ms": 0.091
     },
     {
       "cycle_index": 13,
@@ -111,7 +111,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.145
+      "elapsed_ms": 0.088
     },
     {
       "cycle_index": 14,
@@ -119,7 +119,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.177
+      "elapsed_ms": 0.083
     },
     {
       "cycle_index": 15,
@@ -127,7 +127,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.158
+      "elapsed_ms": 0.088
     },
     {
       "cycle_index": 16,
@@ -135,7 +135,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.203
+      "elapsed_ms": 0.083
     },
     {
       "cycle_index": 17,
@@ -143,7 +143,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.167
+      "elapsed_ms": 0.079
     },
     {
       "cycle_index": 18,
@@ -151,7 +151,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.166
+      "elapsed_ms": 0.076
     },
     {
       "cycle_index": 19,
@@ -159,7 +159,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.19
+      "elapsed_ms": 0.078
     },
     {
       "cycle_index": 20,
@@ -167,7 +167,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.163
+      "elapsed_ms": 0.083
     },
     {
       "cycle_index": 21,
@@ -175,7 +175,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.124
+      "elapsed_ms": 0.076
     },
     {
       "cycle_index": 22,
@@ -183,7 +183,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.092
+      "elapsed_ms": 0.075
     },
     {
       "cycle_index": 23,
@@ -191,7 +191,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.082
+      "elapsed_ms": 0.085
     },
     {
       "cycle_index": 24,
@@ -199,7 +199,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.083
+      "elapsed_ms": 0.079
     },
     {
       "cycle_index": 25,
@@ -207,7 +207,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.082
+      "elapsed_ms": 0.076
     },
     {
       "cycle_index": 26,
@@ -215,7 +215,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.083
+      "elapsed_ms": 0.076
     },
     {
       "cycle_index": 27,
@@ -223,7 +223,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.084
+      "elapsed_ms": 0.077
     },
     {
       "cycle_index": 28,
@@ -231,7 +231,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.134
+      "elapsed_ms": 0.079
     },
     {
       "cycle_index": 29,
@@ -239,7 +239,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.13
+      "elapsed_ms": 0.08
     },
     {
       "cycle_index": 30,
@@ -247,7 +247,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.136
+      "elapsed_ms": 0.082
     },
     {
       "cycle_index": 31,
@@ -255,7 +255,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.152
+      "elapsed_ms": 0.084
     },
     {
       "cycle_index": 32,
@@ -263,7 +263,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.147
+      "elapsed_ms": 0.109
     },
     {
       "cycle_index": 33,
@@ -271,7 +271,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.148
+      "elapsed_ms": 0.093
     },
     {
       "cycle_index": 34,
@@ -279,7 +279,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.114
+      "elapsed_ms": 0.152
     },
     {
       "cycle_index": 35,
@@ -287,7 +287,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.083
+      "elapsed_ms": 0.112
     },
     {
       "cycle_index": 36,
@@ -295,7 +295,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.081
+      "elapsed_ms": 0.104
     },
     {
       "cycle_index": 37,
@@ -303,7 +303,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.079
+      "elapsed_ms": 0.095
     },
     {
       "cycle_index": 38,
@@ -311,7 +311,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.089
+      "elapsed_ms": 0.094
     },
     {
       "cycle_index": 39,
@@ -319,7 +319,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.079
+      "elapsed_ms": 0.111
     },
     {
       "cycle_index": 40,
@@ -327,7 +327,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.081
+      "elapsed_ms": 0.099
     },
     {
       "cycle_index": 41,
@@ -335,7 +335,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.082
+      "elapsed_ms": 0.087
     },
     {
       "cycle_index": 42,
@@ -343,7 +343,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.08
+      "elapsed_ms": 0.1
     },
     {
       "cycle_index": 43,
@@ -351,7 +351,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.095
+      "elapsed_ms": 0.089
     },
     {
       "cycle_index": 44,
@@ -359,7 +359,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.092
+      "elapsed_ms": 0.082
     },
     {
       "cycle_index": 45,
@@ -367,7 +367,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.118
+      "elapsed_ms": 0.081
     },
     {
       "cycle_index": 46,
@@ -375,7 +375,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.136
+      "elapsed_ms": 0.079
     },
     {
       "cycle_index": 47,
@@ -383,7 +383,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.161
+      "elapsed_ms": 0.078
     },
     {
       "cycle_index": 48,
@@ -391,7 +391,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.161
+      "elapsed_ms": 0.08
     },
     {
       "cycle_index": 49,
@@ -399,7 +399,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.143
+      "elapsed_ms": 0.074
     },
     {
       "cycle_index": 50,
@@ -407,7 +407,7 @@
       "is_chain_valid": true,
       "event_count": 5,
       "task_version": 5,
-      "elapsed_ms": 0.144
+      "elapsed_ms": 0.074
     }
   ]
 }

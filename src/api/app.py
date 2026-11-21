@@ -60,6 +60,25 @@ def create_app() -> FastAPI:
     # Mount API routes
     app.include_router(router, prefix="/api/v1")
 
+    @app.get("/", tags=["Health"])
+    def root():
+        return {
+            "status": "healthy",
+            "name": "bhiv-common-core",
+            "service": "BHIV Enterprise Operating System Common Core",
+            "version": SchemaVersion.V1_0.value,
+            "task_id": "T-GOV-002",
+        }
+
+    @app.get("/health", tags=["Health"])
+    def health_check():
+        return {
+            "status": "UP",
+            "name": "bhiv-common-core",
+            "version": SchemaVersion.V1_0.value,
+            "architecture": "SETU OS Architecture v6.0",
+        }
+
     return app
 
 

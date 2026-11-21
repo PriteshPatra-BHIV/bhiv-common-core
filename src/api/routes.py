@@ -49,6 +49,22 @@ def get_current_token(authorization: Optional[str] = Header(None)) -> AuthTokenP
 
 
 # ---------------------------------------------------------
+# Health & Service Discovery Endpoints
+# ---------------------------------------------------------
+
+@router.get("/health")
+def api_v1_health() -> Dict[str, Any]:
+    """Pre-flight service discovery and health check."""
+    return {
+        "status": "UP",
+        "name": "bhiv-common-core",
+        "version": SchemaVersion.V1_0.value,
+        "task_id": "T-GOV-002",
+        "standard": "SETU OS Architecture v6.0",
+    }
+
+
+# ---------------------------------------------------------
 # Identity Provider Endpoints
 # ---------------------------------------------------------
 

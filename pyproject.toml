@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhiv-common-core"
+version = "1.0.0"
+description = "BHIV Enterprise Operating System Common Core conforming to SETU OS Architecture v6.0"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Pritesh Patra", email = "pritesh.patra@bhiv.gov.in" }
+]
+dependencies = [
+  "fastapi==0.115.8",
+  "pydantic==2.13.3",
+  "pytest==9.0.3",
+  "python-dotenv==1.2.2"
+]

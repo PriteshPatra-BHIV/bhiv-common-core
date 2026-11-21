@@ -84,6 +84,9 @@ class FastAPISyncClient:
         path = parsed.path
         query = urllib.parse.parse_qs(parsed.query)
 
+        if path in ("/health", "/api/v1/health"):
+            return SyncResponse(200, {"status": "UP", "name": "bhiv-common-core", "version": "1.0"})
+
         try:
             token = self._extract_token(headers)
             if not token:

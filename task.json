@@ -1,0 +1,12 @@
+{
+  "task_id": "T-GOV-002",
+  "name": "bhiv-common-core",
+  "title": "BHIV Advancement Milestone: Advanced Enterprise Core & Identity Provider Hardening",
+  "assignee": "Pritesh Patra",
+  "department": "AI ML",
+  "priority": "MEDIUM",
+  "calibrated_duration_hours": 35,
+  "difficulty_level": "BEGINNER",
+  "status": "COMPLETED",
+  "verdict": "PASS"
+}
